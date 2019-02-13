@@ -1,16 +1,15 @@
 {
   "name": "emailfooter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "email footer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bump": "npm --no-git-tag-version version patch",
+    "pack": "node zip.pack.js",
+    "package": "npm run bump && npm run pack"
   },
   "author": "",
   "license": "ISC",
-  "scripts": {
-  	"pack": "npm --no-git-tag-version version patch && node zip.pack.js"
-  },
   "devDependencies": {
     "bestzip": "^2.1.2"
   }
