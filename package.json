@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bestzip": "^2.1.2"
+    "bestzip": "^2.1.7"
   }
 }
